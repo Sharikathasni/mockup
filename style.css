@@ -539,7 +539,9 @@ footer {
         display: none;
         margin-bottom: 10px;
     }
-
+    .button-text{
+         padding: 8px 12px; /* Adjust top/bottom and left/right padding */
+         font-size: 14px; /* Change font size */
     .menu {
         display: none;
         flex-direction: column;
