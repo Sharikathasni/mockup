@@ -542,7 +542,6 @@ footer {
     .button-text{
          padding: 8px 12px; /* Adjust top/bottom and left/right padding */
          font-size: 11px; /* Change font size */
-        width:10%;
     }
     .menu {
         display: none;
