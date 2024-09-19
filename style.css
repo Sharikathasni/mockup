@@ -400,21 +400,16 @@ header p {
 }
 
 .containers {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    gap: 10px;
-    margin-left: 80px;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 30px; /* Space between items */
 }
 
+
 .review-box {
-    width: 200px;
+   
     background: #fff;
-    flex-direction: row;
-    padding: 15px;
-    margin: 90px;
-    border-radius: 8px;
+    width: 90%;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.4s ease, opacity 0.4s ease;
@@ -630,14 +625,11 @@ footer {
         margin-bottom: 20px;
     }
     .containers {
-        flex-direction: column;
-        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+       
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns */
     }
 
-    .review-box {
-        padding: 15px;
-        font-size: 0.9em;
-    }
+    
 
    
 
