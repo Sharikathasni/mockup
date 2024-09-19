@@ -540,9 +540,9 @@ footer {
         margin-bottom: 10px;
     }
     .button-text{
-         padding: 12px 12px; /* Adjust top/bottom and left/right padding */
+         padding: 8px 12px; /* Adjust top/bottom and left/right padding */
          font-size: 8px; /* Change font size */
-        width:2px;
+        
     }
     .menu {
         display: none;
