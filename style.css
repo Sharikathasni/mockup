@@ -540,7 +540,7 @@ footer {
     }
 
     .menu {
-        display: none;
+        display: block;
         flex-direction: column;
         position: absolute;
         top: 90px;
