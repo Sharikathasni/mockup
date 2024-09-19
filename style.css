@@ -633,7 +633,9 @@ footer {
        
         grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns */
     }
-
+.review-box{
+    margin-left:3px;
+}
     
 
    
