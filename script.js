@@ -1,4 +1,5 @@
-const texts = document.querySelectorAll('.text');
+document.addEventListener("DOMContentLoaded", function() {
+    const texts = document.querySelectorAll('.text');
 let index = 0;
 
 function showText() {
@@ -18,4 +19,4 @@ const menu = document.querySelector('.menu');
 hamburger.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
-
+});    
